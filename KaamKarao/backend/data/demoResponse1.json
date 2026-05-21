@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "bookingId": "KK-M3X7K9P2",
+  "service": "Plumber",
+  "location": "G-10, Islamabad",
+  "timeSlot": "Tomorrow, 09:00",
+  "provider": {
+    "name": "Ali Plumbing Services",
+    "service": "plumber",
+    "rating": 4.6,
+    "totalRatings": 127,
+    "distance": "0.00 km",
+    "available": true,
+    "phone": "+92-300-1234567",
+    "priceRange": "Rs. 500-2000",
+    "experience": "8 years"
+  },
+  "smsPreview": "🔧 Booking Confirmed!\n━━━━━━━━━━━━━━━━━━━━\n📋 Booking ID: KK-M3X7K9P2\n👤 Provider: Ali Plumbing Services\n🛠️ Service: Plumber\n📍 Location: G-10\n🕐 Time: Kal, 09:00\n📞 Contact: +92-300-1234567\n💰 Price: Rs. 500-2000\n⭐ Rating: 4.6/5 (127 reviews)\n━━━━━━━━━━━━━━━━━━━━\n✅ Ali Plumbing Services ko aapki booking ki notification bhej di gayi hai. Shukriya!",
+  "intent": {
+    "service": "plumber",
+    "location": "G-10",
+    "time": "tomorrow",
+    "rawInput": "Mujhe kal subah G-10 mein plumber chahiye",
+    "language": "roman_urdu",
+    "confidence": 0.92
+  },
+  "match": {
+    "topProviders": [
+      {
+        "id": "p001",
+        "name": "Ali Plumbing Services",
+        "service": "plumber",
+        "location": { "sector": "G-10", "lat": 33.6938, "lng": 73.0551 },
+        "rating": 4.6,
+        "reviewCount": 127,
+        "available": true,
+        "availableSlots": ["09:00", "10:00", "14:00", "15:00"],
+        "phone": "+92-300-1234567",
+        "experience": "8 years",
+        "priceRange": "Rs. 500-2000",
+        "scoring": {
+          "distance": "0.00 km",
+          "distanceScore": 1.0,
+          "ratingScore": 0.92,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.2,
+          "totalScore": 1.172
+        }
+      },
+      {
+        "id": "p002",
+        "name": "Hassan Pipe Wala",
+        "service": "plumber",
+        "location": { "sector": "G-9", "lat": 33.69, "lng": 73.048 },
+        "rating": 4.2,
+        "reviewCount": 89,
+        "available": true,
+        "availableSlots": ["10:00", "11:00", "16:00"],
+        "phone": "+92-301-2345678",
+        "experience": "5 years",
+        "priceRange": "Rs. 400-1500",
+        "scoring": {
+          "distance": "0.83 km",
+          "distanceScore": 0.917,
+          "ratingScore": 0.84,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.0,
+          "totalScore": 0.911
+        }
+      },
+      {
+        "id": "p005",
+        "name": "Tariq Nalka Master",
+        "service": "plumber",
+        "location": { "sector": "G-11", "lat": 33.685, "lng": 73.035 },
+        "rating": 4.4,
+        "reviewCount": 112,
+        "available": true,
+        "availableSlots": ["09:00", "12:00", "15:00", "16:00"],
+        "phone": "+92-304-5678901",
+        "experience": "7 years",
+        "priceRange": "Rs. 500-1800",
+        "scoring": {
+          "distance": "2.21 km",
+          "distanceScore": 0.779,
+          "ratingScore": 0.88,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.0,
+          "totalScore": 0.87
+        }
+      }
+    ],
+    "selectedProvider": {
+      "id": "p001",
+      "name": "Ali Plumbing Services",
+      "service": "plumber",
+      "location": { "sector": "G-10", "lat": 33.6938, "lng": 73.0551 },
+      "rating": 4.6,
+      "reviewCount": 127,
+      "available": true,
+      "availableSlots": ["09:00", "10:00", "14:00", "15:00"],
+      "phone": "+92-300-1234567",
+      "experience": "8 years",
+      "priceRange": "Rs. 500-2000",
+      "scoring": {
+        "distance": "0.00 km",
+        "distanceScore": 1.0,
+        "ratingScore": 0.92,
+        "availabilityScore": 1.0,
+        "sectorBonus": 0.2,
+        "totalScore": 1.172
+      }
+    },
+    "reasoning": "Selected Ali Plumbing Services (G-10) with score 1.172. Distance: 0.00 km, Rating: 4.6/5, Available. Same sector bonus applied."
+  },
+  "booking": {
+    "id": "KK-M3X7K9P2",
+    "provider": {
+      "id": "p001",
+      "name": "Ali Plumbing Services",
+      "phone": "+92-300-1234567",
+      "rating": 4.6,
+      "experience": "8 years",
+      "priceRange": "Rs. 500-2000",
+      "sector": "G-10"
+    },
+    "service": "plumber",
+    "location": "G-10",
+    "slot": "09:00",
+    "timePreference": "tomorrow",
+    "status": "CONFIRMED",
+    "createdAt": "2026-05-21T05:48:00.000Z",
+    "confirmationMessage": "🔧 Booking Confirmed!\n━━━━━━━━━━━━━━━━━━━━\n📋 Booking ID: KK-M3X7K9P2\n👤 Provider: Ali Plumbing Services\n🛠️ Service: Plumber\n📍 Location: G-10\n🕐 Time: Kal, 09:00\n📞 Contact: +92-300-1234567\n💰 Price: Rs. 500-2000\n⭐ Rating: 4.6/5 (127 reviews)\n━━━━━━━━━━━━━━━━━━━━\n✅ Ali Plumbing Services ko aapki booking ki notification bhej di gayi hai. Shukriya!"
+  },
+  "followup": {
+    "reminders": [
+      {
+        "type": "CONFIRMATION",
+        "scheduledFor": "2026-05-21T05:48:00.000Z",
+        "status": "SENT",
+        "message": "✅ Booking KK-M3X7K9P2 confirmed! Ali Plumbing Services will arrive at G-10 at 09:00. Contact: +92-300-1234567"
+      },
+      {
+        "type": "REMINDER_1HR",
+        "scheduledFor": "2026-05-22T08:00:00.000Z",
+        "status": "SCHEDULED",
+        "message": "⏰ Reminder: Ali Plumbing Services (plumber) will arrive at G-10 in 1 hour at 09:00. Be ready! Contact: +92-300-1234567"
+      },
+      {
+        "type": "COMPLETION",
+        "scheduledFor": "2026-05-22T11:00:00.000Z",
+        "status": "SCHEDULED",
+        "message": "⭐ How was your experience with Ali Plumbing Services? Rate your plumber service and help others find great providers! Reply with 1-5 stars."
+      }
+    ]
+  },
+  "agentTrace": [
+    {
+      "agent": "Intent Agent",
+      "icon": "🧠",
+      "status": "done",
+      "duration": 127,
+      "input": { "userInput": "Mujhe kal subah G-10 mein plumber chahiye", "language": "roman_urdu" },
+      "output": { "intent": "book_service", "service": "plumber", "location": "G-10", "timePreference": "kal subah", "urgency": "normal", "confidence": 0.92 }
+    },
+    {
+      "agent": "Matching Agent",
+      "icon": "🔍",
+      "status": "done",
+      "duration": 84,
+      "input": { "service": "plumber", "location": "G-10", "timePreference": "morning" },
+      "output": { "matchedProviders": 3, "bestMatch": "Ali Plumbing Services", "score": 1.172, "distance": "0.00 km", "criteria": "distance:40% + rating:35% + availability:25% + sectorBonus" }
+    },
+    {
+      "agent": "Booking Agent",
+      "icon": "📅",
+      "status": "done",
+      "duration": 12,
+      "input": { "providerId": "p001", "slot": "09:00", "date": "tomorrow" },
+      "output": { "bookingId": "KK-M3X7K9P2", "confirmed": true, "estimatedCost": "Rs. 500-2000", "smsGenerated": true }
+    },
+    {
+      "agent": "Follow-up Agent",
+      "icon": "🔔",
+      "status": "done",
+      "duration": 5,
+      "input": { "bookingId": "KK-M3X7K9P2", "phone": "+92-300-1234567" },
+      "output": { "smsSent": true, "reminders": ["1hr before", "15min before"], "ratingScheduled": true }
+    }
+  ],
+  "totalDuration": "228ms"
+}

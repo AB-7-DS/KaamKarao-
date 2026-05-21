@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "bookingId": "KK-N4Y8L1Q3",
+  "service": "AC Technician",
+  "location": "F-7, Islamabad",
+  "timeSlot": "Today, 14:00",
+  "provider": {
+    "name": "Farhan Cool AC Services",
+    "service": "ac_technician",
+    "rating": 4.9,
+    "totalRatings": 287,
+    "distance": "0.11 km",
+    "available": true,
+    "phone": "+92-320-1234567",
+    "priceRange": "Rs. 1000-4000",
+    "experience": "14 years"
+  },
+  "smsPreview": "❄️ Booking Confirmed!\n━━━━━━━━━━━━━━━━━━━━\n📋 Booking ID: KK-N4Y8L1Q3\n👤 Provider: Farhan Cool AC Services\n🛠️ Service: AC Technician\n📍 Location: F-7\n🕐 Time: Aaj, 14:00\n📞 Contact: +92-320-1234567\n💰 Price: Rs. 1000-4000\n⭐ Rating: 4.9/5 (287 reviews)\n━━━━━━━━━━━━━━━━━━━━\n✅ Farhan Cool AC Services ko aapki booking ki notification bhej di gayi hai. Shukriya!",
+  "intent": {
+    "service": "ac_technician",
+    "location": "F-7",
+    "time": "afternoon",
+    "rawInput": "AC repair F-7 today afternoon",
+    "language": "english",
+    "confidence": 0.95
+  },
+  "match": {
+    "topProviders": [
+      {
+        "id": "p021",
+        "name": "Farhan Cool AC Services",
+        "service": "ac_technician",
+        "location": { "sector": "F-7", "lat": 33.7205, "lng": 73.059 },
+        "rating": 4.9,
+        "reviewCount": 287,
+        "available": true,
+        "availableSlots": ["09:00", "10:00", "11:00", "14:00", "15:00"],
+        "phone": "+92-320-1234567",
+        "experience": "14 years",
+        "priceRange": "Rs. 1000-4000",
+        "scoring": {
+          "distance": "0.11 km",
+          "distanceScore": 0.989,
+          "ratingScore": 0.98,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.2,
+          "totalScore": 1.189
+        }
+      },
+      {
+        "id": "p025",
+        "name": "Sohail Cooling Expert",
+        "service": "ac_technician",
+        "location": { "sector": "F-8", "lat": 33.712, "lng": 73.05 },
+        "rating": 4.7,
+        "reviewCount": 198,
+        "available": true,
+        "availableSlots": ["08:00", "09:00", "13:00", "14:00", "17:00"],
+        "phone": "+92-324-5678901",
+        "experience": "10 years",
+        "priceRange": "Rs. 900-3500",
+        "scoring": {
+          "distance": "1.24 km",
+          "distanceScore": 0.876,
+          "ratingScore": 0.94,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.0,
+          "totalScore": 0.93
+        }
+      },
+      {
+        "id": "p022",
+        "name": "Adeel AC Repair",
+        "service": "ac_technician",
+        "location": { "sector": "G-10", "lat": 33.695, "lng": 73.056 },
+        "rating": 4.5,
+        "reviewCount": 164,
+        "available": true,
+        "availableSlots": ["10:00", "13:00", "15:00", "16:00"],
+        "phone": "+92-321-2345678",
+        "experience": "8 years",
+        "priceRange": "Rs. 800-3500",
+        "scoring": {
+          "distance": "2.84 km",
+          "distanceScore": 0.716,
+          "ratingScore": 0.9,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.0,
+          "totalScore": 0.852
+        }
+      }
+    ],
+    "selectedProvider": {
+      "id": "p021",
+      "name": "Farhan Cool AC Services",
+      "service": "ac_technician",
+      "location": { "sector": "F-7", "lat": 33.7205, "lng": 73.059 },
+      "rating": 4.9,
+      "reviewCount": 287,
+      "available": true,
+      "availableSlots": ["09:00", "10:00", "11:00", "14:00", "15:00"],
+      "phone": "+92-320-1234567",
+      "experience": "14 years",
+      "priceRange": "Rs. 1000-4000",
+      "scoring": {
+        "distance": "0.11 km",
+        "distanceScore": 0.989,
+        "ratingScore": 0.98,
+        "availabilityScore": 1.0,
+        "sectorBonus": 0.2,
+        "totalScore": 1.189
+      }
+    },
+    "reasoning": "Selected Farhan Cool AC Services (F-7) with score 1.189. Distance: 0.11 km, Rating: 4.9/5, Available. Same sector bonus applied."
+  },
+  "booking": {
+    "id": "KK-N4Y8L1Q3",
+    "provider": {
+      "id": "p021",
+      "name": "Farhan Cool AC Services",
+      "phone": "+92-320-1234567",
+      "rating": 4.9,
+      "experience": "14 years",
+      "priceRange": "Rs. 1000-4000",
+      "sector": "F-7"
+    },
+    "service": "ac_technician",
+    "location": "F-7",
+    "slot": "14:00",
+    "timePreference": "today",
+    "status": "CONFIRMED",
+    "createdAt": "2026-05-21T05:48:00.000Z",
+    "confirmationMessage": "❄️ Booking Confirmed!\n━━━━━━━━━━━━━━━━━━━━\n📋 Booking ID: KK-N4Y8L1Q3\n👤 Provider: Farhan Cool AC Services\n🛠️ Service: AC Technician\n📍 Location: F-7\n🕐 Time: Aaj, 14:00\n📞 Contact: +92-320-1234567\n💰 Price: Rs. 1000-4000\n⭐ Rating: 4.9/5 (287 reviews)\n━━━━━━━━━━━━━━━━━━━━\n✅ Farhan Cool AC Services ko aapki booking ki notification bhej di gayi hai. Shukriya!"
+  },
+  "followup": {
+    "reminders": [
+      {
+        "type": "CONFIRMATION",
+        "scheduledFor": "2026-05-21T05:48:00.000Z",
+        "status": "SENT",
+        "message": "✅ Booking KK-N4Y8L1Q3 confirmed! Farhan Cool AC Services will arrive at F-7 at 14:00. Contact: +92-320-1234567"
+      },
+      {
+        "type": "REMINDER_1HR",
+        "scheduledFor": "2026-05-21T13:00:00.000Z",
+        "status": "SCHEDULED",
+        "message": "⏰ Reminder: Farhan Cool AC Services (AC Technician) will arrive at F-7 in 1 hour at 14:00. Be ready! Contact: +92-320-1234567"
+      },
+      {
+        "type": "COMPLETION",
+        "scheduledFor": "2026-05-21T16:00:00.000Z",
+        "status": "SCHEDULED",
+        "message": "⭐ How was your experience with Farhan Cool AC Services? Rate your AC Technician service and help others find great providers! Reply with 1-5 stars."
+      }
+    ]
+  },
+  "agentTrace": [
+    {
+      "agent": "Intent Agent",
+      "icon": "🧠",
+      "status": "done",
+      "duration": 95,
+      "input": { "userInput": "AC repair F-7 today afternoon", "language": "english" },
+      "output": { "intent": "book_service", "service": "ac_technician", "location": "F-7", "timePreference": "today afternoon", "urgency": "normal", "confidence": 0.95 }
+    },
+    {
+      "agent": "Matching Agent",
+      "icon": "🔍",
+      "status": "done",
+      "duration": 112,
+      "input": { "service": "ac_technician", "location": "F-7", "timePreference": "afternoon" },
+      "output": { "matchedProviders": 3, "bestMatch": "Farhan Cool AC Services", "score": 1.189, "distance": "0.11 km", "criteria": "distance:40% + rating:35% + availability:25% + sectorBonus" }
+    },
+    {
+      "agent": "Booking Agent",
+      "icon": "📅",
+      "status": "done",
+      "duration": 8,
+      "input": { "providerId": "p021", "slot": "14:00", "date": "today" },
+      "output": { "bookingId": "KK-N4Y8L1Q3", "confirmed": true, "estimatedCost": "Rs. 1000-4000", "smsGenerated": true }
+    },
+    {
+      "agent": "Follow-up Agent",
+      "icon": "🔔",
+      "status": "done",
+      "duration": 3,
+      "input": { "bookingId": "KK-N4Y8L1Q3", "phone": "+92-320-1234567" },
+      "output": { "smsSent": true, "reminders": ["1hr before", "15min before"], "ratingScheduled": true }
+    }
+  ],
+  "totalDuration": "218ms"
+}

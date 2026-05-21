@@ -1,0 +1,192 @@
+{
+  "success": true,
+  "bookingId": "KK-P5Z9M2R4",
+  "service": "Electrician",
+  "location": "I-8, Islamabad",
+  "timeSlot": "Today, 09:00",
+  "provider": {
+    "name": "Asad Light Master",
+    "service": "electrician",
+    "rating": 4.3,
+    "totalRatings": 102,
+    "distance": "0.14 km",
+    "available": true,
+    "phone": "+92-313-4567890",
+    "priceRange": "Rs. 400-1600",
+    "experience": "7 years"
+  },
+  "smsPreview": "⚡ Booking Confirmed!\n━━━━━━━━━━━━━━━━━━━━\n📋 Booking ID: KK-P5Z9M2R4\n👤 Provider: Asad Light Master\n🛠️ Service: Electrician\n📍 Location: I-8\n🕐 Time: Aaj, 09:00\n📞 Contact: +92-313-4567890\n💰 Price: Rs. 400-1600\n⭐ Rating: 4.3/5 (102 reviews)\n━━━━━━━━━━━━━━━━━━━━\n✅ Asad Light Master ko aapki booking ki notification bhej di gayi hai. Shukriya!",
+  "intent": {
+    "service": "electrician",
+    "location": "I-8",
+    "time": "today",
+    "rawInput": "Bijli wala chahiye I-8 abhi",
+    "language": "roman_urdu",
+    "confidence": 0.89
+  },
+  "match": {
+    "topProviders": [
+      {
+        "id": "p014",
+        "name": "Asad Light Master",
+        "service": "electrician",
+        "location": { "sector": "I-8", "lat": 33.669, "lng": 73.077 },
+        "rating": 4.3,
+        "reviewCount": 102,
+        "available": true,
+        "availableSlots": ["09:00", "12:00", "15:00", "16:00"],
+        "phone": "+92-313-4567890",
+        "experience": "7 years",
+        "priceRange": "Rs. 400-1600",
+        "scoring": {
+          "distance": "0.14 km",
+          "distanceScore": 0.986,
+          "ratingScore": 0.86,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.2,
+          "totalScore": 1.145
+        }
+      },
+      {
+        "id": "p018",
+        "name": "Kashif Power Electric",
+        "service": "electrician",
+        "location": { "sector": "I-9", "lat": 33.661, "lng": 73.066 },
+        "rating": 4.6,
+        "reviewCount": 134,
+        "available": true,
+        "availableSlots": ["08:00", "10:00", "13:00", "15:00"],
+        "phone": "+92-317-8901234",
+        "experience": "11 years",
+        "priceRange": "Rs. 500-2200",
+        "scoring": {
+          "distance": "1.42 km",
+          "distanceScore": 0.858,
+          "ratingScore": 0.92,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.0,
+          "totalScore": 0.915
+        }
+      },
+      {
+        "id": "p011",
+        "name": "Imran Electric Services",
+        "service": "electrician",
+        "location": { "sector": "G-10", "lat": 33.6945, "lng": 73.054 },
+        "rating": 4.7,
+        "reviewCount": 189,
+        "available": true,
+        "availableSlots": ["09:00", "10:00", "13:00", "15:00"],
+        "phone": "+92-310-1234567",
+        "experience": "9 years",
+        "priceRange": "Rs. 400-1800",
+        "scoring": {
+          "distance": "3.54 km",
+          "distanceScore": 0.646,
+          "ratingScore": 0.94,
+          "availabilityScore": 1.0,
+          "sectorBonus": 0.0,
+          "totalScore": 0.838
+        }
+      }
+    ],
+    "selectedProvider": {
+      "id": "p014",
+      "name": "Asad Light Master",
+      "service": "electrician",
+      "location": { "sector": "I-8", "lat": 33.669, "lng": 73.077 },
+      "rating": 4.3,
+      "reviewCount": 102,
+      "available": true,
+      "availableSlots": ["09:00", "12:00", "15:00", "16:00"],
+      "phone": "+92-313-4567890",
+      "experience": "7 years",
+      "priceRange": "Rs. 400-1600",
+      "scoring": {
+        "distance": "0.14 km",
+        "distanceScore": 0.986,
+        "ratingScore": 0.86,
+        "availabilityScore": 1.0,
+        "sectorBonus": 0.2,
+        "totalScore": 1.145
+      }
+    },
+    "reasoning": "Selected Asad Light Master (I-8) with score 1.145. Distance: 0.14 km, Rating: 4.3/5, Available. Same sector bonus applied."
+  },
+  "booking": {
+    "id": "KK-P5Z9M2R4",
+    "provider": {
+      "id": "p014",
+      "name": "Asad Light Master",
+      "phone": "+92-313-4567890",
+      "rating": 4.3,
+      "experience": "7 years",
+      "priceRange": "Rs. 400-1600",
+      "sector": "I-8"
+    },
+    "service": "electrician",
+    "location": "I-8",
+    "slot": "09:00",
+    "timePreference": "today",
+    "status": "CONFIRMED",
+    "createdAt": "2026-05-21T05:48:00.000Z",
+    "confirmationMessage": "⚡ Booking Confirmed!\n━━━━━━━━━━━━━━━━━━━━\n📋 Booking ID: KK-P5Z9M2R4\n👤 Provider: Asad Light Master\n🛠️ Service: Electrician\n📍 Location: I-8\n🕐 Time: Aaj, 09:00\n📞 Contact: +92-313-4567890\n💰 Price: Rs. 400-1600\n⭐ Rating: 4.3/5 (102 reviews)\n━━━━━━━━━━━━━━━━━━━━\n✅ Asad Light Master ko aapki booking ki notification bhej di gayi hai. Shukriya!"
+  },
+  "followup": {
+    "reminders": [
+      {
+        "type": "CONFIRMATION",
+        "scheduledFor": "2026-05-21T05:48:00.000Z",
+        "status": "SENT",
+        "message": "✅ Booking KK-P5Z9M2R4 confirmed! Asad Light Master will arrive at I-8 at 09:00. Contact: +92-313-4567890"
+      },
+      {
+        "type": "REMINDER_1HR",
+        "scheduledFor": "2026-05-21T08:00:00.000Z",
+        "status": "SCHEDULED",
+        "message": "⏰ Reminder: Asad Light Master (Electrician) will arrive at I-8 in 1 hour at 09:00. Be ready! Contact: +92-313-4567890"
+      },
+      {
+        "type": "COMPLETION",
+        "scheduledFor": "2026-05-21T11:00:00.000Z",
+        "status": "SCHEDULED",
+        "message": "⭐ How was your experience with Asad Light Master? Rate your Electrician service and help others find great providers! Reply with 1-5 stars."
+      }
+    ]
+  },
+  "agentTrace": [
+    {
+      "agent": "Intent Agent",
+      "icon": "🧠",
+      "status": "done",
+      "duration": 142,
+      "input": { "userInput": "Bijli wala chahiye I-8 abhi", "language": "roman_urdu" },
+      "output": { "intent": "book_service", "service": "electrician", "location": "I-8", "timePreference": "abhi (now)", "urgency": "high", "confidence": 0.89 }
+    },
+    {
+      "agent": "Matching Agent",
+      "icon": "🔍",
+      "status": "done",
+      "duration": 98,
+      "input": { "service": "electrician", "location": "I-8", "timePreference": "now" },
+      "output": { "matchedProviders": 3, "bestMatch": "Asad Light Master", "score": 1.145, "distance": "0.14 km", "criteria": "distance:40% + rating:35% + availability:25% + sectorBonus" }
+    },
+    {
+      "agent": "Booking Agent",
+      "icon": "📅",
+      "status": "done",
+      "duration": 15,
+      "input": { "providerId": "p014", "slot": "09:00", "date": "today" },
+      "output": { "bookingId": "KK-P5Z9M2R4", "confirmed": true, "estimatedCost": "Rs. 400-1600", "smsGenerated": true }
+    },
+    {
+      "agent": "Follow-up Agent",
+      "icon": "🔔",
+      "status": "done",
+      "duration": 4,
+      "input": { "bookingId": "KK-P5Z9M2R4", "phone": "+92-313-4567890" },
+      "output": { "smsSent": true, "reminders": ["1hr before", "15min before"], "ratingScheduled": true }
+    }
+  ],
+  "totalDuration": "259ms"
+}
